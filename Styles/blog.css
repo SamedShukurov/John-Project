@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/*Header*/
+header {
+  height: 80px;
+}
+header > ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header > ul > li {
+  padding-right: 60px;
+  padding-top: 27px;
+}
+header > ul > li > a {
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 1.5s;
+}
+header > ul > li:nth-child(1) > a {
+  color: rgba(255, 100, 100, 1);
+}
+header > ul > li > a:hover {
+  color: rgba(255, 100, 100, 1);
+}
+.Mob-Header {
+  display: none;
+}
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container > div:nth-child(1) {
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 55px;
+}
+.UI {
+    margin-top: 30px ;
+  width: 80%;
+  height: 150px;
+}
+.UI > div:nth-child(1) {
+  font-size: 30px;
+  font-weight: 500;
+}
+.UI > div:nth-child(2) {
+  display: flex;
+  width: 300px;
+  height: 21px;
+  margin: 16px 0 15px 0;
+  justify-content: space-between;
+}
+.UI > div:nth-child(2) > div:nth-child(1) {
+  font-size: 20px;
+  font-weight: 400;
+}
+.UI > div:nth-child(2) > div:nth-child(3) {
+  color:rgba(134, 149, 164, 1);
+  font-size: 20px;
+  font-weight: 400;
+}
+.UI > div:nth-child(3)  {
+    width: 682px;
+    height: 45px;
+    font-size:16px;
+    font-weight: 400;
+  }
+/* 682px */
+
+/* Footer */
+footer {
+  padding-top: 85px;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+footer > div > div:nth-child(1) {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+footer > div > div:nth-child(2) {
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}

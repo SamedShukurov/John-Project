@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/*Header*/
+header {
+  height: 80px;
+  width: 90%;
+  margin: 0 auto;
+}
+header > ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header > ul > li {
+  padding-right: 60px;
+  padding-top: 27px;
+}
+header > ul > li > a {
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 1.5s;
+}
+header > ul > li:nth-child(2) > a {
+  color: rgba(255, 100, 100, 1);
+}
+header > ul > li > a:hover {
+  color: rgba(255, 100, 100, 1);
+}
+.Mob-Header {
+  display: none;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container > div:nth-child(1) {
+  font-size: 44px;
+  font-weight: 700;
+  padding-bottom: 55px;
+}
+
+.A {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.card-description {
+  padding-left: 20px;
+}
+.card-description > div:nth-child(1) {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+.card-description > div:nth-child(2) {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  column-gap: 20px;
+  padding: 20px 0 20px 0;
+}
+.card-description > div:nth-child(2) > div:nth-child(1) {
+  height: 25px;
+  width: 60px;
+  border-radius: 16px;
+  background-color: rgba(20, 40, 80, 1);
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+.card-description > div:nth-child(2) > div:nth-child(2) {
+  font-size: 20px;
+  color: rgba(134, 149, 164, 1);
+}
+.card-description > div:nth-child(3) {
+  height: 100px;
+  width: 600px;
+  font-size: 16px;
+}
+/* Footer */
+footer {
+  padding-top: 85px;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+footer > div > div:nth-child(1) {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+footer > div > div:nth-child(2) {
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
