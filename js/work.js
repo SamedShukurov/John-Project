@@ -8,7 +8,7 @@ fetch("../db/work.json")
                 <div class="A">
                     <div><img src="${item.image}" alt="1" /></div>
                     <div class="card-description">
-                        <div><a href="../workdetail.html">${item.header}</a></div>
+                        <div><a href="../html/workdetail.html">${item.header}</a></div>
                         <div>
                             <div>${item.year}</div>
                             <div>${item.title}</div>
