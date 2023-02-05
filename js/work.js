@@ -1,10 +1,10 @@
 const work = document.querySelector(".container");
 
 fetch("../db/work.json")
-    .then(response => response.json())
-    .then((data) => {
-        data.map((item) => { 
-            work.innerHTML += `
+  .then((response) => response.json())
+  .then((data) => {
+    data.map((item) => {
+      work.innerHTML += `
                 <div class="A">
                     <div><img src="${item.image}" alt="1" /></div>
                     <div class="card-description">
@@ -20,5 +20,5 @@ fetch("../db/work.json")
                 </div>
                 <hr />
             `;
-        })
     });
+  });

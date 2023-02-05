@@ -13,7 +13,7 @@ fetch("../db/blog.json")
                    <div>${item.title}</div>
                  </div>
                  <div>
-                 ${item.description}
+                 ${item.description} 
                 </div>
               </div>
                <hr>

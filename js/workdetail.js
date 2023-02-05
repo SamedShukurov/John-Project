@@ -1,10 +1,10 @@
 const work = document.querySelector(".container");
 
 fetch("../db/work.json")
-.then(response => response.json())
-.then((data) => {
-    data.map((item)=>{
-        work.innerHTML +=`
+  .then((response) => response.json())
+  .then((data) => {
+    data.map((item) => {
+      work.innerHTML += `
         <div class="container-header">${item.header}</div>
         <div class="container-center">
           <div class="container-time">${item.year}</div>
@@ -15,5 +15,5 @@ fetch("../db/work.json")
         </div>
         <img src="${item.image}">
         `;
-    })
-})
+    });
+  });
